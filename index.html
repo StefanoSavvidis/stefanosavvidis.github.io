@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Stefano Savvidis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  
+  <script type="text/javascript" src="jquery.fullpage.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="jquery.fullpage.css" />
+  
+  
+
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Roboto:100');
+</style>
+
+
+  <script>
+    
+  $(document).ready(function() {
+    
+      $('#fullpage').fullpage({
+        anchors:['firstPage', 'secondPage', 'thirdPage']
+      }); 
+  
+    });
+  
+  </script>
+</head>
+
+<body>
+<canvas id="canvas-basic"></canvas>
+
+<div id="fullpage">
+  <div class="section" id="section1">
+
+      <center>
+        
+    <a href="https://github.com/StefanoSavvidis">
+      <h1 id="github">STEFANOS. SAVVIDIS.</h1>
+    </a>
+      </center>
+  </div>
+  <div class="section" id="section2">
+
+    
+      <center>
+        <h2>WHAT. I. DO.</h2>
+      </center>
+
+    <div id="shopify"> 
+      <a href="https://www.mydevlife.ca/">
+        <img src="shopify.png" width=90%></img>
+      </a>
+      
+<p>Currently doing a partnership program where I work at Shopify at the same time of doing my studies.
+</p>
+    </div>
+<div id="shopify">
+
+
+  <p>Studying Computer Science at the University of Carleton.
+  </p>
+<a href="https://carleton.ca/scs/">
+  <img src="carleton.png" width=90%></img>
+</a>
+</div>
+
+  </div>
+  <div class="section" id="section3">
+    <center>
+    <a href="mailto:stefanos.savvidis@shopify.com?Subject=Hello" target="_top">
+      <h2 id="email">CONTACT. ME.</h2>
+    </a>
+    </center>
+  </div>
+</div>
+
+
+</body>
+</html>
